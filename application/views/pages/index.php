@@ -86,7 +86,7 @@
                             <div class="col-2 competence">
                                 <h4><?= $competence['name'] ?></h4>
                                 <div class="rating-wrapper">
-                                    <div class="level" style="width:<?= $competence['level'] ?>%;" data-size="<?= $competence['level'] ?>"><span class="status"><?= $competence['level'] ?>%</span></div>
+                                    <div class="level" style="width:<?= $competence['secret-level'] ?>%;" data-level="<?= $competence['level'] ?>"><span class="status"><?= $competence['level'] ?></span></div>
                                 </div>
                             </div>
                         <?php }
@@ -100,7 +100,7 @@
                             <div class="col-2 competence">
                                 <h4><?= $competence['name'] ?></h4>
                                 <div class="rating-wrapper">
-                                    <div class="level" style="width:<?= $competence['level'] ?>%;" data-size="<?= $competence['level'] ?>"><span class="status"><?= $competence['level'] ?>%</span></div>
+                                    <div class="level" style="width:<?= $competence['secret-level'] ?>%;" data-level="<?= $competence['level'] ?>"><span class="status"><?= $competence['level'] ?></span></div>
                                 </div>
                             </div>
                         <?php }

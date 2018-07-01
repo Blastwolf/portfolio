@@ -22,6 +22,10 @@
     opacity: 1;
 }
 
+#presentation h3, h5 {
+    font-weight: 100;
+}
+
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);

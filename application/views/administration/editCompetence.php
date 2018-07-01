@@ -15,8 +15,14 @@
     </div>
 
     <div class="col-4 col-12-xsmall">
-        <label for="level">Niveau de maitrise de la competence : </label>
-        <input style="background-color:#312450;" type="text" name="level" value="<?= $competence['level'] ?>">
+        <label for="level">Niveau : </label>
+        <select name="level">
+            <option value="debutant" <?php if ($competence['level'] == 'debutant') echo 'selected' ?>>Débutant
+            </option>
+            <option value="intermediaire" <?php if ($competence['level'] == 'intermediaire') echo 'selected' ?>>intermédiaire</option>
+            <option value="bon" <?php if ($competence['level'] == 'bon') echo 'selected' ?>>Bon</option>
+            <option value="excellent" <?php if ($competence['level'] == 'excellent') echo 'selected' ?>>Excellent</option>
+        </select>
     </div>
 
     <ul class="actions">

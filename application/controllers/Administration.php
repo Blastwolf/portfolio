@@ -142,7 +142,7 @@ class Administration extends CI_Controller
         $data['title'] = 'Ajouter une compétence';
 
         $this->form_validation->set_rules('name', 'competence', 'required');
-        $this->form_validation->set_rules('level', 'niveau de maitrise', 'required|integer|less_than_equal_to[100]|greater_than_equal_to[0]');
+        $this->form_validation->set_rules('level', 'niveau de maitrise', 'required');
         $this->form_validation->set_rules('category', 'categorie', 'required');
 
 
@@ -173,7 +173,7 @@ class Administration extends CI_Controller
         }
 
         $this->form_validation->set_rules('name', 'competence', 'required');
-        $this->form_validation->set_rules('level', 'niveau de maitrise', 'required|integer|less_than_equal_to[100]|greater_than_equal_to[0]');
+        $this->form_validation->set_rules('level', 'niveau de maitrise', 'required');
         $this->form_validation->set_rules('category', 'categorie', 'required');
 
 
