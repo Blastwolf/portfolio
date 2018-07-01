@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list id="814ece9a-a1e2-48b8-98e5-1f7adb62fb91" name="Ajout de la foncitonnalité qui permet de modifier l'image d'un post lorsqu'on l'édit.ajout d'une fonctionnalité pour attribuer un nom unique lors d'une ajout d'une image grace à méthode de L'ImageManager.Amélioration du CSS pour que les images et le même ratio" comment="" />
+    <list default="true" id="4920df70-62ed-4a8e-ad2a-dcb997447e79" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog_ecrivain" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog_ecrivain" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog_ecrivain" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog_ecrivain: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog_ecrivain" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog_ecrivain: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="comments: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ConnectRegisterController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/ConnectRegisterController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectRegisterManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/ConnectRegisterManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <marker date="1529312332727" expanded="true" signature="224:283" ph="SELECT userN... users" />
+                <marker date="1529312332727" expanded="true" signature="577:671" ph="INSERT INTO users... " />
+                <marker date="1529312332727" expanded="true" signature="896:949" ph="SELECT COUNT... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewBackendController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/ViewBackendController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/ImageManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewAddPost.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/backend/viewAddPost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/CommentManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+              <folding>
+                <marker date="1529440704357" expanded="true" signature="159:194" ph="SELECT * FRO... comments" />
+                <marker date="1529440704357" expanded="true" signature="356:564" ph="SELECT id, p... comments" />
+                <marker date="1529440704357" expanded="true" signature="783:842" ph="INSERT INTO comments... " />
+                <marker date="1529440704357" expanded="true" signature="997:1030" ph="DELETE FROM comments... " />
+                <marker date="1529440704357" expanded="true" signature="1266:1304" ph="DELETE FROM comments... " />
+                <marker date="1529440704357" expanded="true" signature="1519:1607" ph="UPDATE comments... " />
+                <marker date="1529440704357" expanded="true" signature="1792:1887" ph="UPDATE comments... " />
+                <marker date="1529440704357" expanded="true" signature="2049:2095" ph="SELECT repor... comments" />
+                <marker date="1529440704357" expanded="true" signature="2305:2384" ph="SELECT * FRO... comments" />
+                <marker date="1529440704357" expanded="true" signature="2580:2629" ph="SELECT COUNT... comments" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewFrontendController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/ViewFrontendController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewPostsList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/viewPostsList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/PostManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <marker date="1529339922778" expanded="true" signature="200:378" ph="SELECT id,ti... posts" />
+                <marker date="1529339922778" expanded="true" signature="438:617" ph="SELECT id,ti... posts" />
+                <marker date="1529339922778" expanded="true" signature="821:969" ph="SELECT id,ti... posts" />
+                <marker date="1529339922778" expanded="true" signature="1141:1286" ph="SELECT *, DA... posts" />
+                <marker date="1529339922778" expanded="true" signature="1427:1506" ph="INSERT INTO posts... " />
+                <marker date="1529339922778" expanded="true" signature="1729:1820" ph="UPDATE posts... " />
+                <marker date="1529339922778" expanded="true" signature="2050:2082" ph="DELETE FROM posts... " />
+                <marker date="1529339922778" expanded="true" signature="2207:2233" ph="SELECT COUNT... posts" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>views</find>
+      <find>pic02</find>
+      <find>wrapper</find>
+      <find>images/</find>
+      <find>active</find>
+      <find>.active</find>
+      <find>#main &gt; .posts</find>
+      <find>.pagination</find>
+      <find>article</find>
+      <find>table-wra</find>
+      <find>table-ce</find>
+      <find>table</find>
+      <find>addPost</find>
+      <find>line-hei</find>
+      <find>html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video</find>
+      <find>.comment</find>
+      <find>a.im</find>
+      <find>input[type=&quot;text&quot;]</find>
+      <find>.image.left</find>
+      <find>#main &gt; .posts &gt; article</find>
+      <find>panel</find>
+      <find>#wrapper &gt; .bg.fixed</find>
+      <find>#wrapper &gt; .bg</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Blastwolf" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Views/viewPostList.php" />
+        <option value="$PROJECT_DIR$/Models/ConnectRegisterManager.php" />
+        <option value="$PROJECT_DIR$/Models/Manager.php" />
+        <option value="$PROJECT_DIR$/Models/CommentManager.php" />
+        <option value="$PROJECT_DIR$/Public/js/active.js" />
+        <option value="$PROJECT_DIR$/Public/css/style.css" />
+        <option value="$PROJECT_DIR$/Views/View404.php" />
+        <option value="$PROJECT_DIR$/Views/template.php" />
+        <option value="$PROJECT_DIR$/Views/backend/viewAddPost.php" />
+        <option value="$PROJECT_DIR$/Views/backend/viewBackend.php" />
+        <option value="$PROJECT_DIR$/Views/viewPost.php" />
+        <option value="$PROJECT_DIR$/Views/viewPostsList.php" />
+        <option value="$PROJECT_DIR$/Controllers/ViewFrontendController.php" />
+        <option value="$PROJECT_DIR$/Public/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/Models/PostManager.php" />
+        <option value="$PROJECT_DIR$/Views/backend/viewEditPost.php" />
+        <option value="$PROJECT_DIR$/Views/viewAccueil.php" />
+        <option value="$PROJECT_DIR$/Models/ImageManager.php" />
+        <option value="$PROJECT_DIR$/Controllers/ViewBackendController.php" />
+        <option value="$PROJECT_DIR$/Controllers/ConnectRegisterController.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/Models/Manager.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/Controllers/ConnectRegisterController.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/models/ConnectRegisterManager.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/models/PostManager.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/controllers/ViewFrontendController.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/models/PostManager.php" />
+        <option value="$PROJECT_DIR$/controllers/ViewFrontendController.php" />
+        <option value="$PROJECT_DIR$/controllers/ViewBackendController.php" />
+        <option value="$PROJECT_DIR$/public/js/init_tinymce.js" />
+        <option value="$PROJECT_DIR$/views/viewConnectRegister.php" />
+        <option value="$PROJECT_DIR$/views/View500.php" />
+        <option value="$PROJECT_DIR$/controllers/ConnectRegisterController.php" />
+        <option value="$PROJECT_DIR$/models/CommentManager.php" />
+        <option value="$PROJECT_DIR$/views/viewPost.php" />
+        <option value="$PROJECT_DIR$/views/backend/viewBackend.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/style.css" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/models/Manager.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/models/ImageManager.php" />
+        <option value="$PROJECT_DIR$/models/ImageManager.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/index.php" />
+        <option value="$PROJECT_DIR$/views/backend/viewAddPost.php" />
+        <option value="$PROJECT_DIR$/views/backend/viewEditPost.php" />
+        <option value="$PROJECT_DIR$/views/viewAccueil.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/views/viewAccueil.php" />
+        <option value="$PROJECT_DIR$/views/template.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/views/viewPostsList.php" />
+        <option value="&lt;c8837d5e-0e0f-4e37-9600-d26ac6a4abdc&gt;/public_html/blog_ecrivain/views/template.php" />
+        <option value="$PROJECT_DIR$/views/viewPostsList.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="216" />
+    <option name="width" value="1384" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssUnusedSymbol</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog_ecrivain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_ecrivain" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog_ecrivain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_ecrivain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog_ecrivain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_ecrivain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog_ecrivain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_ecrivain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog_ecrivain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog_ecrivain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="blog_ecrivain" type="cbb8eebc:String" user="blog_ecrivain" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\blog_ecrivain\public\images\global" />
+      <recent name="C:\wamp64\www\blog_ecrivain\public\assets\css" />
+      <recent name="C:\wamp64\www\blog_ecrivain\Public\images\thumbnails" />
+      <recent name="C:\wamp64\www\blog_ecrivain\Views\ViewsSave" />
+      <recent name="C:\wamp64\www\Projet_blog_ecrivain\public\plugins" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\blog_ecrivain\Views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4920df70-62ed-4a8e-ad2a-dcb997447e79" name="Default" comment="" />
+      <changelist id="814ece9a-a1e2-48b8-98e5-1f7adb62fb91" name="Ajout de la foncitonnalité qui permet de modifier l'image d'un post lorsqu'on l'édit.ajout d'une fonctionnalité pour attribuer un nom unique lors d'une ajout d'une image grace à méthode de L'ImageManager.Amélioration du CSS pour que les images et le même ratio" comment="" />
+      <created>1528102956759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528102956759</updated>
+      <workItem from="1528102958014" duration="12146000" />
+      <workItem from="1528145184486" duration="5036000" />
+      <workItem from="1528191434885" duration="2173000" />
+      <workItem from="1528273088309" duration="26409000" />
+      <workItem from="1528318162835" duration="375000" />
+      <workItem from="1528359595323" duration="18976000" />
+      <workItem from="1528384614994" duration="994000" />
+      <workItem from="1528392081967" duration="8197000" />
+      <workItem from="1528409981791" duration="779000" />
+      <workItem from="1528445344388" duration="13696000" />
+      <workItem from="1528476901817" duration="11711000" />
+      <workItem from="1528532070330" duration="14379000" />
+      <workItem from="1528562837597" duration="8235000" />
+      <workItem from="1528643992731" duration="16115000" />
+      <workItem from="1528710218925" duration="44766000" />
+      <workItem from="1528792263488" duration="23349000" />
+      <workItem from="1528879924320" duration="8116000" />
+      <workItem from="1528896961303" duration="18346000" />
+      <workItem from="1528921541464" duration="1600000" />
+      <workItem from="1528967786402" duration="11941000" />
+      <workItem from="1528992998570" duration="13152000" />
+      <workItem from="1529048988940" duration="5318000" />
+      <workItem from="1529055196653" duration="3114000" />
+      <workItem from="1529058343869" duration="11015000" />
+      <workItem from="1529096102598" duration="686000" />
+      <workItem from="1529135439201" duration="9559000" />
+      <workItem from="1529224736400" duration="5770000" />
+      <workItem from="1529233616446" duration="1569000" />
+      <workItem from="1529245879713" duration="9630000" />
+      <workItem from="1529271952669" duration="1133000" />
+      <workItem from="1529310811819" duration="3186000" />
+      <workItem from="1529331733553" duration="5110000" />
+      <workItem from="1529349547158" duration="1341000" />
+      <workItem from="1529356582974" duration="5251000" />
+      <workItem from="1529398626851" duration="20259000" />
+      <workItem from="1529428897729" duration="582000" />
+      <workItem from="1529439098021" duration="4285000" />
+      <workItem from="1529444054406" duration="995000" />
+      <workItem from="1529479808694" duration="1630000" />
+      <workItem from="1529495465423" duration="1432000" />
+      <workItem from="1529528558218" duration="288000" />
+      <workItem from="1529528872263" duration="1392000" />
+      <workItem from="1529566786062" duration="17404000" />
+      <workItem from="1529607342460" duration="175000" />
+      <workItem from="1529613912517" duration="726000" />
+      <workItem from="1529655243816" duration="419000" />
+      <workItem from="1529674828302" duration="64000" />
+      <workItem from="1529682532337" duration="702000" />
+      <workItem from="1529683652280" duration="16000" />
+      <workItem from="1529781378686" duration="153000" />
+      <workItem from="1529826707398" duration="4476000" />
+      <workItem from="1529842275288" duration="26000" />
+      <workItem from="1529882838899" duration="1679000" />
+      <workItem from="1529929335034" duration="3162000" />
+    </task>
+    <task id="LOCAL-00001" summary="Amélioration du controllers de connection , vérification des mots de passes à l'inscription.&#10;Ajout de la vue backend pour l'admin , ajout de la page de modification de Post, modification du router et controllers en consequence.">
+      <created>1528404195474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528404195474</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Amélioration du controllers de connection , vérification des mots de passes à l'inscription.&#10;Ajout de la vue backend pour l'admin , ajout de la page de modification de Post, modification du router et controllers en consequence.&#10;Modification de l'affichage des articles pour pouvoir profiter de la mise en page de tinymce.">
+      <created>1528410684404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528410684404</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de fichier de template pour la mise en page et le style , dupplication de fichier pour faire des tests , workinprogress.">
+      <created>1528760136983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528760136983</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Amélioration de l'aspect graphique du site , RETRANSFORMATION des controllers pour reposer sur un model plus objets avec utilisation de $this et non plus de méthode static .">
+      <created>1528840224110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528840224110</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajout de la fonctionnalité d'ajout de thumbnails via l'upload d'image , creation du model ImageManager.php dans ce but.Ajout de message nous indiquant que l'on a bien ajouté un Episode , modéré un commentaire ,supprimer un épisode grace au proprietés de nos objets accessible dans la vue.">
+      <created>1528985658594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528985658594</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ajout de la foncitonnalité qui permet de modifier l'image d'un post lorsqu'on l'édit.ajout d'une fonctionnalité pour attribuer un nom unique lors d'une ajout d'une image grace à méthode de L'ImageManager.Amélioration du CSS pour que les images et le même ratio">
+      <created>1529011039782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529011039782</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ajout de la foncitonnalité qui permet de modifier l'image d'un post lorsqu'on l'édit.ajout d'une fonctionnalité pour attribuer un nom unique lors d'une ajout d'une image grace à méthode de L'ImageManager.Amélioration du CSS pour que les images et le même ratio.">
+      <created>1529011289750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1529011289750</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Amélioration de l'update de post qui permet de garder l'image d'origine si on en upload pas de nouvelle , ajout de la fonctionnalité de suppression de commentaires , ajout d'un message de succes en cas de commentaire. Ajout de code php dans la vue template pour activer la class active sur les elements du menu pour le design.">
+      <created>1529147354706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529147354706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Finitions CSS , correction de bugs">
+      <created>1529272315481</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529272315482</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Encore des finitions de la présentation du code dans les vue , changement de backgrounb du site , creation d'un dossier pour les background du site">
+      <created>1529424163784</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529424163784</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ajout des balise alt pour les images du site avec le nom des images en bdd comme valeur, ajout des meta open graph dans le template.php et viewAccueil.php">
+      <created>1529607513693</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529607513693</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="392075000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="100" y="216" width="1384" height="860" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15405117" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26435044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12313433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43911007" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5175644" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672113" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Amélioration du controllers de connection , vérification des mots de passes à l'inscription.&#10;Ajout de la vue backend pour l'admin , ajout de la page de modification de Post, modification du router et controllers en consequence." />
+    <MESSAGE value="Amélioration du controllers de connection , vérification des mots de passes à l'inscription.&#10;Ajout de la vue backend pour l'admin , ajout de la page de modification de Post, modification du router et controllers en consequence.&#10;Modification de l'affichage des articles pour pouvoir profiter de la mise en page de tinymce." />
+    <MESSAGE value="Ajout de fichier de template pour la mise en page et le style , dupplication de fichier pour faire des tests , workinprogress." />
+    <MESSAGE value="Amélioration de l'aspect graphique du site , RETRANSFORMATION des controllers pour reposer sur un model plus objets avec utilisation de $this et non plus de méthode static ." />
+    <MESSAGE value="Ajout de la fonctionnalité d'ajout de thumbnails via l'upload d'image , creation du model ImageManager.php dans ce but.Ajout de message nous indiquant que l'on a bien ajouté un Episode , modéré un commentaire ,supprimer un épisode grace au proprietés de nos objets accessible dans la vue." />
+    <MESSAGE value="Ajout de la foncitonnalité qui permet de modifier l'image d'un post lorsqu'on l'édit.ajout d'une fonctionnalité pour attribuer un nom unique lors d'une ajout d'une image grace à méthode de L'ImageManager.Amélioration du CSS pour que les images et le même ratio" />
+    <MESSAGE value="Ajout de la foncitonnalité qui permet de modifier l'image d'un post lorsqu'on l'édit.ajout d'une fonctionnalité pour attribuer un nom unique lors d'une ajout d'une image grace à méthode de L'ImageManager.Amélioration du CSS pour que les images et le même ratio." />
+    <MESSAGE value="Amélioration de l'update de post qui permet de garder l'image d'origine si on en upload pas de nouvelle , ajout de la fonctionnalité de suppression de commentaires , ajout d'un message de succes en cas de commentaire. Ajout de code php dans la vue template pour activer la class active sur les elements du menu pour le design." />
+    <MESSAGE value="Finitions CSS , correction de bugs" />
+    <MESSAGE value="Encore des finitions de la présentation du code dans les vue , changement de backgrounb du site , creation d'un dossier pour les background du site" />
+    <MESSAGE value="ajout des balise alt pour les images du site avec le nom des images en bdd comme valeur, ajout des meta open graph dans le template.php et viewAccueil.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des balise alt pour les images du site avec le nom des images en bdd comme valeur, ajout des meta open graph dans le template.php et viewAccueil.php" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5713fb63-872c-4388-8c47-095bf0d57728/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4421e17f-5ff7-425f-975f-666f8e9625fd/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/viewDeconnect.php" />
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/backend/viewEditPost.php" />
+    <entry file="file://$PROJECT_DIR$/Controllers/test.php" />
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/backend/viewAddPost.php" />
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/viewConnectRegister.php" />
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/viewAccueil.php" />
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/viewPost.php" />
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/viewPostsList.php" />
+    <entry file="file://$PROJECT_DIR$/public/assets/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/template.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.321/main.css" />
+    <entry file="file://$PROJECT_DIR$/public/assets/js/jquery.scrolly.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/jquery.scrollex.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/skel.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/ViewsSave/backend/viewBackend.php" />
+    <entry file="file://$USER_HOME$/Documents/OpenClassRooms Parcours Projet/projects/integrez-la-maquette-du-site-d-une-agence-web/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="1" lean-forward="false" selection-start-line="67" selection-start-column="1" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/templatesave.php" />
+    <entry file="file://$PROJECT_DIR$/Views/elements.html" />
+    <entry file="file://$PROJECT_DIR$/Views/viewAccueilsave.php" />
+    <entry file="file://$PROJECT_DIR$/Views/viewConnectRegistersave.php" />
+    <entry file="file://$PROJECT_DIR$/Views/viewPostsListsave.php" />
+    <entry file="file://$PROJECT_DIR$/Controllers/ConnectRegisterController_Save.php" />
+    <entry file="file://$PROJECT_DIR$/public/assets/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="162" column="41" lean-forward="false" selection-start-line="162" selection-start-column="36" selection-end-line="162" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/noscript.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="123" column="52" lean-forward="false" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config/config.php" />
+    <entry file="file://$PROJECT_DIR$/public/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62594">
+          <caret line="3682" column="12" lean-forward="false" selection-start-line="3682" selection-start-column="11" selection-end-line="3682" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="95" column="65" lean-forward="false" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/backend/viewEditPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/backend/viewBackend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/viewConnectRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="51" column="42" lean-forward="false" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/view500.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/viewPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/init_tinymce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/viewAccueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/viewPostsList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/PostManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <marker date="1529339922778" expanded="true" signature="200:378" ph="SELECT id,ti... posts" />
+            <marker date="1529339922778" expanded="true" signature="438:617" ph="SELECT id,ti... posts" />
+            <marker date="1529339922778" expanded="true" signature="821:969" ph="SELECT id,ti... posts" />
+            <marker date="1529339922778" expanded="true" signature="1141:1286" ph="SELECT *, DA... posts" />
+            <marker date="1529339922778" expanded="true" signature="1427:1506" ph="INSERT INTO posts... " />
+            <marker date="1529339922778" expanded="true" signature="1729:1820" ph="UPDATE posts... " />
+            <marker date="1529339922778" expanded="true" signature="2050:2082" ph="DELETE FROM posts... " />
+            <marker date="1529339922778" expanded="true" signature="2207:2233" ph="SELECT COUNT... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ConnectRegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ViewFrontendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/backend/viewAddPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ImageManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ViewBackendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/CommentManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <marker date="1529440704357" expanded="true" signature="159:194" ph="SELECT * FRO... comments" />
+            <marker date="1529440704357" expanded="true" signature="356:564" ph="SELECT id, p... comments" />
+            <marker date="1529440704357" expanded="true" signature="783:842" ph="INSERT INTO comments... " />
+            <marker date="1529440704357" expanded="true" signature="997:1030" ph="DELETE FROM comments... " />
+            <marker date="1529440704357" expanded="true" signature="1266:1304" ph="DELETE FROM comments... " />
+            <marker date="1529440704357" expanded="true" signature="1519:1607" ph="UPDATE comments... " />
+            <marker date="1529440704357" expanded="true" signature="1792:1887" ph="UPDATE comments... " />
+            <marker date="1529440704357" expanded="true" signature="2049:2095" ph="SELECT repor... comments" />
+            <marker date="1529440704357" expanded="true" signature="2305:2384" ph="SELECT * FRO... comments" />
+            <marker date="1529440704357" expanded="true" signature="2580:2629" ph="SELECT COUNT... comments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ConnectRegisterManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <marker date="1529312332727" expanded="true" signature="224:283" ph="SELECT userN... users" />
+            <marker date="1529312332727" expanded="true" signature="577:671" ph="INSERT INTO users... " />
+            <marker date="1529312332727" expanded="true" signature="896:949" ph="SELECT COUNT... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

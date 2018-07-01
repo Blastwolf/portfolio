@@ -26,13 +26,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	https://codeigniter.com
- * @since	Version 1.0.0
+ * @package    CodeIgniter
+ * @author    EllisLab Dev Team
+ * @copyright    Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright    Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    https://codeigniter.com
+ * @since    Version 1.0.0
  * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
@@ -44,8 +44,8 @@ $lang['upload_file_partial'] = 'The file was only partially uploaded.';
 $lang['upload_no_temp_directory'] = 'The temporary folder is missing.';
 $lang['upload_unable_to_write_file'] = 'The file could not be written to disk.';
 $lang['upload_stopped_by_extension'] = 'The file upload was stopped by extension.';
-$lang['upload_no_file_selected'] = 'You did not select a file to upload.';
-$lang['upload_invalid_filetype'] = 'The filetype you are attempting to upload is not allowed.';
+$lang['upload_no_file_selected'] = 'Vous n\'avez pas choisi de fichier a uploader.';
+$lang['upload_invalid_filetype'] = 'Le type de fichier que vous essayer d\'uploader n\'est pas accepté.';
 $lang['upload_invalid_filesize'] = 'The file you are attempting to upload is larger than the permitted size.';
 $lang['upload_invalid_dimensions'] = 'The image you are attempting to upload doesn\'t fit into the allowed dimensions.';
 $lang['upload_destination_error'] = 'A problem was encountered while attempting to move the uploaded file to the final destination.';
